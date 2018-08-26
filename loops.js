@@ -8,7 +8,7 @@ function whileLoop(n) {while (n > 0) { (console.log(n--)); }
 function doWhileLoop(array) { var i = 0;
 function incrementVariable() {
   i = i + 1;}
-{ array.pop()
+{ array.splice(i, 1)
  } while (array.length > 0 && incrementVariable())d
 return array
 }

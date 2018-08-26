@@ -5,6 +5,8 @@ function forLoop(array) {for (let i = 0; i < 25; i++) {
 function whileLoop(n) {while (n > 0) { (console.log(n--)); }
   return 'done';
 }
-function doWhileLoop(array) { 
-  
+function doWhileLoop(array) { do { 
+ } while (array.length > 0 && incrementVariable())
+return array
 }
+

@@ -5,7 +5,10 @@ function forLoop(array) {for (let i = 0; i < 25; i++) {
 function whileLoop(n) {while (n > 0) { (console.log(n--)); }
   return 'done';
 }
-function doWhileLoop(array) { var i = 0 do { array.pop()
+function doWhileLoop(array) { var i = 0;
+function incrementVariable() {
+  i = i + 1;}
+{ array.pop()
  } while (array.length > 0 && incrementVariable())d
 return array
 }
